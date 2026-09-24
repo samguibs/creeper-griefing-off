@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.samguibs.creepergriefingoff.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "CreeperGriefingOffMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
