@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "creeper-griefing-off",
+	"version": "${version}",
+	"name": "Creeper Griefing Off",
+	"description": "Prevents creepers from destroying blocks while preserving explosion damage and knockback.",
+	"authors": [
+		"samguibs"
+	],
+	"license": "MIT",
+	"icon": "assets/creeper-griefing-off/icon.png",
+	"environment": "*",
+	"contact": {
+		"homepage": "https://modrinth.com/mod/creeper-griefing-off",
+		"sources": "https://github.com/samguibs/creeper-griefing-off",
+		"issues": "https://github.com/samguibs/creeper-griefing-off/issues"
+	},
+	"entrypoints": {
+		"main": [
+			"com.samguibs.creepergriefingoff.CreeperGriefingOff"
+		]
+	},
+	"mixins": [
+		"creeper-griefing-off.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "26.1.x",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
